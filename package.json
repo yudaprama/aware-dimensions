@@ -1,6 +1,6 @@
 {
-  "name": "yuda",
-  "version": "1.0.1",
+  "name": "aware-dimensions",
+  "version": "1.0.2",
   "main": "AwareDimensions.js",
   "repository": "https://github.com/yudaprama/aware-dimensions.git"
 }
