@@ -10,10 +10,9 @@ module.exports = function AwareDimensions(ComposedComponent) {
         height: 0,
         initialRender: false
       };
-      this.measure = this.measure.bind(this);
     }
 
-    measure({nativeEvent : {layout : {width = 0, height = 0} = {}} = {}}){
+    measure = ({nativeEvent : {layout : {width = 0, height = 0} = {}} = {}}) => {
       this.setState({width, height, initialRender:true});
     }
 
